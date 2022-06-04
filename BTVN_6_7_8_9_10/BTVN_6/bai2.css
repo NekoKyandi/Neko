@@ -1,0 +1,80 @@
+.BT6_b2_font {
+    background-color: rgb(242,242,242);
+    width: 100%;
+    height: 615px;
+}
+
+.BT6_b2_font_1{
+    /* background-color: blueviolet; */
+    width: 31%;
+    height: 570px;
+}
+
+.BT6_b2_font_2{
+    background-color: rgb(57, 77, 96);
+    width: 50%;
+    height: 250px;
+    margin-left: 5%;
+}
+
+
+.BT6_b2_font_2_a{
+    background-color: violet;
+    width: 30%;
+    height: 250px;
+    display:inline-block;
+    margin-top: -30%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+
+.BT6_b2_font_2_b{
+    background-color: tomato;
+    width: 30%;
+    height: 150px;
+    display:inline-block;
+    margin-top: -30%;
+    margin-bottom: 5%;
+}
+
+.BT6_b2_font_2_c{
+    background-color: forestgreen;
+    width: 48%;
+    height: 200px;
+    margin-left: 5%;
+}
+
+.BT6_b2_absolute {
+    position: absolute;
+}
+
+.BT6_b2_relative {
+    position: relative;
+}
+
+.BT6_b2_ab_f1{
+    top:3%;
+    left:15%;
+}
+
+.BT6_b2_ab_f2{
+    left: 45%;
+    top: calc(50% - 75px);
+}
+
+.BT6_b2_text_style_Oswald{
+    font-family: 'Oswald', sans-serif;
+}
+
+.BT6_b2_text_style_OpenSans{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.BT6_b2_text_size_1{
+    font-size: 30px;
+}
+
+/* .BT6_b2_text_box{
+    text-overflow: ellipsis;
+} */

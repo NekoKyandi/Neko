@@ -1,0 +1,76 @@
+.BT6_b3_font_0{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 800px;
+}
+.BT6_b3_font_1{
+    background-color: rgb(60, 63, 93);
+    width:100%;
+    height: 210px;
+}
+
+.BT6_b3_font_2{
+    background-color: rgb(236, 104, 67);
+    width: 12%;
+    height:450px;
+    border: 1px solid hidden;
+    border-radius: 16px;
+}
+
+.BT6_b3_font_3{
+    background-color: rgb(30, 100, 245);
+    width: 40%;
+    height: 300px;
+    border: 1px solid hidden;
+    border-radius: 16px;
+}
+
+.BT6_b3_font_4{
+    background-color: whitesmoke;
+    color: rgb(52, 56, 88);
+    width: 24%;
+    height: fit-content;
+    box-sizing: border-box;
+    padding:2% 4% ;
+    border: 1px solid hidden;
+    border-radius: 16px;
+}
+
+.BT6_b3_relative{
+    position: relative;
+}
+
+.BT6_b3_absolute{
+    position: absolute;
+}
+
+.BT6_b3_ab_font_2{
+    left:60%;
+    top:5.5%;
+}
+
+.BT6_b3_ab_font_3{
+    left:30%;
+    top:13%;
+}
+
+.BT6_b3_ab_font_4{
+    left: 25%;
+    top: 45%
+}
+
+.BT6_b3_text_style_opensan{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.BT6_b3_text_style_roboto{
+    font-family: 'Roboto', sans-serif;
+}
+
+.BT6_b3_text_size_30{
+    font-size: 30px;
+}
+
+.BT6_b3_text_size_10{
+    font-size: 10px;
+}

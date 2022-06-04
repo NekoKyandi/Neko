@@ -1,0 +1,62 @@
+.font {
+    background-color: rgb(44, 41, 41);
+    width: 100%;
+    height: 500px;
+}
+
+.font-1 {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 70px;
+
+}
+
+.font-2 {
+    /* background-color: brown; */
+    width: 25%;
+    height: 250px;
+    margin-right: 10%;
+    margin-left: 20%;
+    margin-top: 10%;
+    /* margin-bottom: 10%; */
+    vertical-align: top;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.font-3 {
+    background-color: wheat;
+    width: 25%;
+    height: 380px;
+    margin-top: 4%;
+    /* margin-bottom: 7%; */
+    padding: 10px 15px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.style{
+    color: black;
+    padding-left: 5%;
+    padding-top: 8%;
+}
+
+.text-color{
+    color: white;
+    padding-left: 5%;
+    padding-top: 8%;
+}
+
+.text-color-1{
+    color: rgb(194, 194, 96);
+    padding-left: 5%;
+    padding-top: 8%;
+}
+
+.size-30{
+    font-size: 30px;
+}
+
+.size-20{
+    font-size: 20px;
+}

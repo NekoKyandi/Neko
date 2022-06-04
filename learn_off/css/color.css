@@ -1,0 +1,32 @@
+p {
+    color: violet;
+}
+
+.font {
+    display: inline-block;
+    color: white;
+}
+
+.up-1 {
+    background-color: black;
+    border: 1px solid white;
+    width: 100px;
+    height: 100px;
+    color: white;
+}
+
+.up {
+    vertical-align: top;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+.font-1 {
+    font-family: 'Playfair Display', serif;
+}
+
+.font-2 {
+    font-family: 'Playfair Display', serif;
+}

@@ -1,0 +1,24 @@
+.front-lgbt{
+    background: -webkit-linear-gradient(
+        rgb(182,2,2),
+        rgb(204,112,0),
+        rgb(204,190,0),
+        rgb(0,102,30),
+        rgb(0,62,204),
+        rgb(94,6,108));
+    width: 400px;
+    height: 350px;
+    margin: 0px 20%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.front-w{
+    background-color:white;
+    width: 400px;
+    height: 365px;
+    margin-top: -10.5%;
+}
+.te-left{
+    text-align: left;
+}
