@@ -1,0 +1,31 @@
+.font_0{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    background-color: wheat;
+    padding: 10px 20px;
+    width: 100%;
+    height: 500px;
+
+}
+.font_1{
+    background-color: white;
+}
+.font_2{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    /* background-color: whitesmoke; */
+
+}
+
+.font_img_1{
+    background-color: brown;
+}
+.font_img_2{
+    background-color: blueviolet;
+}
+.font_img_3{
+    grid-area: footer;
+}
