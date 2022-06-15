@@ -1,0 +1,23 @@
+.font{
+    background-color: violet;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+.font_1{
+    background-color: tomato;
+    width: 25%;
+    height: 100%;
+    transition: all 1s;
+    flex-grow: 0;
+}
+img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    display: flex;
+}
+.font_1:hover{
+    flex-grow: 2;
+}
