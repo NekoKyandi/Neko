@@ -1,0 +1,112 @@
+body{
+background-color: black;
+}
+.font_0{
+    background: radial-gradient(rgb(255, 255, 255) , rgba(64, 167, 214, 0.616) 50%);
+    width: 80%;
+    height: 500px;
+    margin: auto auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.font_line{
+    background-color: rgb(36, 30, 30);
+    width: 80%;
+    height: 300px;
+    box-shadow: 5px 10px rgba(31, 76, 97, 0.781);
+    transform: rotateY(50deg) rotateX(0deg);
+}
+
+.full_line{
+    width: 100%;
+    height: auto;
+    animation-name: line_run;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes line_run {
+    0%{
+        transform: translate(100%);
+    }
+    /* 25%{
+        transform: translate(75%);
+    }
+    50%{
+        transform: translate(50%);
+    }
+    75%{
+        transform: translate(25%);
+    } */
+    100%{
+        transform: translate(-30%);
+    }
+
+}
+
+.line{
+    background-image: linear-gradient(to right,green 80%, violet 20%);
+    width: 30%;
+    height: 20px;
+}
+
+@keyframes roll {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(90deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes roll_left {
+    0% {
+        transform: rotate(360deg);
+    }
+    25% {
+        transform: rotate(270deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(90deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.cube{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    animation-name: roll;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    top: 50px;
+    left: 100px;
+}
+
+.cube_shadow{
+    background-color:rgba(252, 252, 252, 0.5);
+    width: 100px;
+    height: 100px;
+    animation-name: roll_left;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    top: 152px;
+    left: 100px;
+}
+
