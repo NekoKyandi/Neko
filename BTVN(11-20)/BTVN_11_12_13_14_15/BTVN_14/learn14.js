@@ -40,7 +40,7 @@ function but5() {
     const loading = document.getElementById(load)
     let y = 0;
     for (y=1;y<100;y++){
-        y=y+1;
-        load.innerHTML = y+"%"
+        // y=y+1;
+        // load.innerHTML = y+"%"
     }
 }
