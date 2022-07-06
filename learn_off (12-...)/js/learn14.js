@@ -25,19 +25,19 @@ function but2Function() {
 }
 
 function but3() {
-    const number = document.getElementById(random_number)
+    const number = document.getElementById("random_number")
     let random = Math.floor((Math.random() * 100) + 1);
     random_number.innerHTML = "số bạn vừa random là: " + "' " + random + " '."
 }
 
 function but4() {
-    const pop = document.getElementById(pop_up)
+    const pop = document.getElementById("pop_up")
     alert("Đây là pop-up -.-");
     alert("Đã bảo đừng ấn rồi mà -.-")
 }
 
 function but5() {
-    const loading = document.getElementById(load)
+    const loading = document.getElementById("load")
     let y = 0;
     for (y=1;y<100;y++){
         // y=y+1;
