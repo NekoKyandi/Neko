@@ -56,7 +56,7 @@ function but4() {
     const bai4 = document.getElementById("bai4")
     const bai4_am = document.getElementById("bai4_am");
     const bai4_duong = document.getElementById("bai4_duong");
-    let a = prompt("Nhap a:");
+    
     let tong_am = 0;
     let tong_duong = 0;
     let tong_0 = 0;
