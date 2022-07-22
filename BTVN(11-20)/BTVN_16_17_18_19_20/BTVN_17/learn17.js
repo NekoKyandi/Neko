@@ -24,13 +24,13 @@ function but2() {
     let B = parseInt(prompt("Nhập n:"));
     let a = 0;
     let b = 0
-    for (i=0; i<A; i++) {
-        a+=i;
+    for (let i=0; i<A; i++) {
+        a=a+i;
         if (a<=A) {
             b=i;
         }
     }
-    for (i=0; i<B; i++) {
+    for (let i=0; i<B; i++) {
         sum+=i;
     }
     item_2.innerHTML = b;

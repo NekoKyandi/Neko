@@ -1,0 +1,26 @@
+.bai1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bai1_a{
+    background-color: pink;
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.list_bai1 {
+    background-color: wheat;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.item{
+    /* background-color: violet; */
+    border: 1px solid gray;
+    text-align: center;
+}
